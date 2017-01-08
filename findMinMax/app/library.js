@@ -1,12 +1,8 @@
-/**
- * A function to return the min and max numeber(s) in a array
- * @Author okorocelstine@gmail.com (Okoro Celestine)
- */
+
 'use strict'
 
 var submit = {}
 submit.findMinMax = function(num) {
-
 	var min = 0,
 	    max =0,
 	    cur,
@@ -23,10 +19,8 @@ submit.findMinMax = function(num) {
 	  			min = cur;
 	  		} else if (cur >max) {
 	  			max=cur;
-	  		}
-	  		
-	  	}
-
+	  		}	
+	    }
 	  	if (min !== max){
 	  		minMax.push(min);
 	  		minMax.push(max);
@@ -36,6 +30,7 @@ submit.findMinMax = function(num) {
     return minMax;
 	}
 }
+
 
 
 module.exports = submit;
