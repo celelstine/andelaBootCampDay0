@@ -1,0 +1,21 @@
+{
+  "name": "javascript-demo-project",
+  "version": "1.0.0",
+  "description": " JavaScript project for day0 lab test",
+  "main": "app/library.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celelstine/andelaBootCampDay0"
+  },
+  
+  "devDependencies": {
+    "jasmine-expect": "^3.0.1",
+    "jasmine-node": "^1.14.5"
+  }
+}
